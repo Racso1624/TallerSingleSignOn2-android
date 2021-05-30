@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val items : MutableList<String> = mutableListOf()
 
-        items.add("Item 1")
-        items.add("Item 2")
+        items.add("ITEM 1")
+        items.add("ITEM 2")
 
         btnCrear.setOnClickListener{
             items.add("NUEVO ITEM")
